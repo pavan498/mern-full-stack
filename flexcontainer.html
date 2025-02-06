@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction:column;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color:aqua;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: brown;
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>About</h1>
+
+<p>This pavansai from kodad and iam studying in anurag engineering college and
+        my aim is to become a sucessful businessman</p>
+
+<div class="flex-container">
+  <div class="flex-item-left">Instagtam</div>
+  <div class="flex-item-right">Contact</div>
+</div>
+
+</body>
+</html>
+
+
